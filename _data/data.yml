@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -12,167 +12,46 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: kmponis@gmail.com
+    phone: 0793 107 2449
+    website: #do not add http://
+    linkedin: konstantinos-bonis-88491525
+    github: kmponis
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Greek
         level: Native
-
-      - idiom: French
+      
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    # interests:
+    #   - item: Cooking
+    #     link:
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+education:
+    - degree: MEng in Electronic and Computer Engineer
+      university: Technical University of Crete
+      time: 2012
+      details: |
+          - Thesis, Estimate cost for connecting Wind Farms to Network, Matlab (9.87/10)
+          - Developed a Unix Operating System using C/C++
+          - Embedded ABS System on a remote-control car using VHDL, C/C++
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      A polyglot senior software engineer seeking to learn, teach and evolve. 
+      Driven by undertaking responsibilities and solving problems. I learn 
+      rapidly and create any kind of project a business needs. I configure 
+      DevOps tools and lead the team to deliver quality code considering 
+      design patterns and security.
 
 skills:
     title: Skills &amp; Proficiency
@@ -196,5 +75,78 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+experiences:
+    - role: Senior Software Engineer
+      time: July 2017 - Present
+      company: Sopra Steria, Glasgow
+      details: |
+        As a consultant, I evaluate business environments and provide clients 
+        with guidance and recommendations. I analyse, design and implement any 
+        type of application a client needs. I configure DevOps tools and guide 
+        the team into using the appropriate methodologies.
+          - Bullet point
+
+    - role: Senior Developer
+      time: September 2014 - July 2017
+      company: BIP Solutions Ltd, Glasgow
+      details: |
+        Collected business requirements and breakdown the system into components. 
+        Guided my colleagues on new tasks, and delivered user friendly applications 
+        on time. Responsible for Delta application, introduced innovative ideas and 
+        implemented them with my team.
+          - Bullet point
+
+    - role: Network Developer
+      time: April 2013 - August 2014
+      company: CityStore, Rhodes
+      details: |
+        Played a key role to the upgrade of a hardware company, into a hardware and 
+        software company. Collected requirements, designed, coded, tested and 
+        delivered network applications following the agile principles. Configured 
+        network devices such as Phone Centres, Radius Servers and Internet Gateways.
+          - Bullet point  
+
+    - role: Software Engineer
+      time: June 2013 - March 2014
+      company: Freelancer, Rhodes
+      details: |
+        Collected requirements, analysed, designed, implemented and delivered Java 
+        applications. Offered computer essentials classes for beginners.
+          - Bullet point
+
+    - role: Java Developer
+      time: September 2012 - April 2013
+      company: THAZA, Rhodes
+      details: |
+        Built Java Applications according to the Agile principles. Retrieved requirements 
+        after face-to-face contact and produced project plans, create UML, Flow Charts and 
+        Data Charts. Communicated with the clients, solving their problems and collecting 
+        new requirements.
+          - Bullet point
+
+projects:
+    title: Projects
+    intro: > # Add text in newline if you need info
+
+    assignments:
+      - title: NHS Locsan
+        location: remote
+        link:
+        description: "I create the development architectural plan and implement it with the team to deliver a managing GP’s details application. An AngularJS frontend and java REST services consumed by NHS SML. I set up GIT repositories and configure servers, Jenkins and Sonar."
+        technologies: AngularJS, Java, REST, Spring, JPA, Oracle DB, Maven, GIT, Sonar, Jenkins, JBoss
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+# Uncomment to add footer        
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
