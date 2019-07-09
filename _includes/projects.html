@@ -1,45 +1,49 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
-<section class="section projects-section">
+  <section class="section projects-section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ projects.title }}
-  </h2>
-
-  {% if projects.intro %}
-  <div class="intro">
-    <p>{{ projects.intro }}</p>
-  </div>
-  {% endif %}
-
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title"> 
-        {% if project.link %}
-          <a href="{{ project.link }}">{{ project.title }}</a> 
-        {% else %}
-          {{ project.title }}
-        {% endif %}
-
-        {% if project.location %}
-          <span class="project-location"> ({{ project.location }}) </span>
-        {% endif %}
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
       </span>
+      {{ projects.title }}
+    </h2>
 
-      {% if project.description %}
-        - <span class="project-description">{{ project.description }}</span>
-      {% endif %}
-      {% if project.technologies %}
-        <br><span class="project-technologies">Technologies: {{ project.technologies }}</span>
-      {% endif %}
+    {% if projects.intro %}
+      <div class="intro">
+        <p>{{ projects.intro }}</p>
+      </div>
+    {% endif %}
 
-    </div>
-  {% endfor %}
+    {% for project in projects.assignments %}
+      <div class="item">
 
-</section>
+        <span class="project-title"> 
+          {% if project.link %}
+            <a href="{{ project.link }}">{{ project.title }}</a> 
+          {% else %}
+            {{ project.title }}
+          {% endif %}
+          
+          {% if project.location %}
+            <span class="project-location"> ({{ project.location }}) </span>
+          {% endif %}
+          {% if project.description %}
+          - <span class="project-description">{{ project.description }}</span>
+        {% endif %}
+        </span>
+
+        {% if project.responsibility %}
+          <br><span class="project-responsibility">{{ project.responsibility }}</span>
+        {% endif %}
+
+        {% if project.technologies %}
+          Technologies: <span class="project-technologies">{{ project.technologies }}</span>
+        {% endif %}
+
+      </div>
+    {% endfor %}
+
+  </section>
 {% endif %}

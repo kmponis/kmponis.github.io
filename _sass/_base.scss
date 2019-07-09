@@ -204,6 +204,15 @@ p {
         margin-top: 0;
         margin-bottom: 5px;
     }
+    .project-location {
+        color: $text-grey;
+    }
+    .project-description {
+        font-size: 14px;
+    }
+    .project-technologies {
+        color: $text-grey;
+    }
     .projects-section {
         .intro {
             margin-bottom: 30px;

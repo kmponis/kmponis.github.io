@@ -17,7 +17,7 @@ sidebar:
     website: #do not add http://
     linkedin: konstantinos-bonis-88491525
     github: kmponis
-    gitlab:
+    gitlab: kmponis
     bitbucket:
     twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -63,67 +63,49 @@ skills:
       - name: Javascript & jQuery
         level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
 experiences:
     - role: Senior Software Engineer
       time: July 2017 - Present
       company: Sopra Steria, Glasgow
       details: |
-        As a consultant, I evaluate business environments and provide clients 
-        with guidance and recommendations. I analyse, design and implement any 
-        type of application a client needs. I configure DevOps tools and guide 
-        the team into using the appropriate methodologies.
-          - Bullet point
+        Full Stack Software Engineering consultant supporting multiple clients.
+        <br>Evaluate business environments and provide recommendations.
+        <br>Analyse, design and implement any application.
+        <br>Configure DevOps tools and create the dev environments.
+        <br>Lead the team and document every step.
 
     - role: Senior Developer
       time: September 2014 - July 2017
       company: BIP Solutions Ltd, Glasgow
       details: |
-        Collected business requirements and breakdown the system into components. 
-        Guided my colleagues on new tasks, and delivered user friendly applications 
-        on time. Responsible for Delta application, introduced innovative ideas and 
-        implemented them with my team.
-          - Bullet point
+        Responsible for the delivery of Delta application.
+        <br>Collected business requirements and breakdown into components.
+        <br>Introduced innovative ideas and lead the team.
+        <br>Fixed complex performance and security issues.
 
-    - role: Network Developer
+    - role: Network Software Engineer
       time: April 2013 - August 2014
       company: CityStore, Rhodes
       details: |
-        Played a key role to the upgrade of a hardware company, into a hardware and 
-        software company. Collected requirements, designed, coded, tested and 
-        delivered network applications following the agile principles. Configured 
-        network devices such as Phone Centres, Radius Servers and Internet Gateways.
-          - Bullet point  
+        Upgraded a network company, into a hardware and software company.
+        <br>Collected requirements, designed, coded, tested and install network applications.
+        <br>Configured network devices such as Phone Centres, Radius Servers and Internet Gateways.
 
     - role: Software Engineer
       time: June 2013 - March 2014
       company: Freelancer, Rhodes
       details: |
-        Collected requirements, analysed, designed, implemented and delivered Java 
-        applications. Offered computer essentials classes for beginners.
-          - Bullet point
+        Collected requirements and delivered Java applications.
+        <br>Offered computer essentials classes for beginners.
 
     - role: Java Developer
       time: September 2012 - April 2013
       company: THAZA, Rhodes
       details: |
-        Built Java Applications according to the Agile principles. Retrieved requirements 
-        after face-to-face contact and produced project plans, create UML, Flow Charts and 
-        Data Charts. Communicated with the clients, solving their problems and collecting 
-        new requirements.
-          - Bullet point
-
+        Collected requirements, designed, coded, tested and delivered java applications.
+        <br>Searched, analysed and produced project plans using UML and Flow Charts. 
+        <br>Communicated with the clients and solved any problems.
+          
 projects:
     title: Projects
     intro: > # Add text in newline if you need info
@@ -131,10 +113,50 @@ projects:
     assignments:
       - title: NHS Locsan
         location: remote
-        link:
-        description: "I create the development architectural plan and implement it with the team to deliver a managing GP’s details application. An AngularJS frontend and java REST services consumed by NHS SML. I set up GIT repositories and configure servers, Jenkins and Sonar."
-        technologies: AngularJS, Java, REST, Spring, JPA, Oracle DB, Maven, GIT, Sonar, Jenkins, JBoss
+        description: A web application for managing GP’s details and 
+          REST API services consumed by third party NHS application.
+        link: #
+        responsibility: |
+          Created the development plan and implement it with the team. 
+          Set up GIT repositories and configured Linux servers.
+        technologies: AngularJS, Java, REST API, Spring, Hibernate, Oracle DB,
+          Maven, GIT, Jenkins, Sonar, JBoss, RHEL, Ubuntu
 
+      - title: EFK Proof of Concept
+        location: remote
+        description: A web application to proof the concept of aggregating and 
+          displaying logs on OpenShift and internal infrastructure.
+        link: #
+        responsibility: |
+          Designed and implemented an AngularJS application consuming java REST 
+          API services. 
+          Deployed on multiple pods using Openshift and local Linux servers.
+          Configured Elastic Search, Fluentd and Kibana.
+        technologies: AngularJS, Java, REST API, Spring Boot, JPA, MongoDB, Maven, GIT, 
+          Elastic Search, Fluentd, Kibana, Openshift, Ubuntu
+
+      - title: Delta 8.1
+        location: 
+        description: An end-to-end, EU compliant, web-based service that allows 
+          buyers to manage tenders, suppliers and contracts.
+        link:
+        responsibility: |
+          Increased performance by amending SQL queries, reduced access to 
+          large hibernate objects and split huge tables into ‘created’ year tables.
+        technologies: Java, SQL/PLSQL, Hibernate, Oracle DB, Multithreading, Ant, SVN, 
+          Selenium, Tomcat, Linux
+
+      - title: Helios PBX
+        location: 
+        description: A client-server swing application that manages Phone Centres. 
+          It works individually or as a bridge between Hotel Front Office programs 
+          and Phone Centres.
+        link:
+        responsibility: 
+        technologies: Java, Swing, Spring, MySQL, Multithreading, TCP/IP Sockets, 
+          Client-Server, GIT
+
+## Uncomment to add publications ##
 # publications:
 #     title: Publications
 #     intro: |
@@ -147,6 +169,6 @@ projects:
 #         authors: Donald E. Knuth
 #         conference: Addison-Wesley, 1968
 
-# Uncomment to add footer        
+## Uncomment to add footer ##
 #footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
