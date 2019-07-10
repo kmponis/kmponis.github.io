@@ -57,11 +57,27 @@ career-profile:
 skills:
     title: Technical Skills
     toolset:
-      - name: Python & Django
-        level: 98%
+      - category: Languages
+        name: JAVA, SQL/PLSQL, JavaScript, TypeScript, HTML, CSS
+        level:
 
-      - name: Javascript & jQuery
-        level: 98%
+      - category: Technologies / Frameworks
+        name: Spring, Hibernate, JPA, REST, SOAP, JSON, Swagger, AngularJS, JSF, 
+          JSP, Swing, Maven, Junit, Cucumber, CAS, Multithreading, TCP/IP Sockets, JavaxComm
+        level:
+          
+      - category: Servers / Databases
+        name: JBoss, Tomcat, Oracle DB, MongoDB, MySQL, SQLite
+        level: 
+
+      - category: DevOps Tools
+        name: GIT, Jenkins, Docker, AWS, Openshift, Hypervisors, Linux, Sonar, Selenium, 
+          Elastic Search, Fluentd, Kibana
+        level: 
+
+      - category: Methodologies
+        name: Agile, Microservices, BDD, TDD, MVC, Design Patterns, SOLID, Pair Programming 
+        level: 
 
 experiences:
     title: Work Experience

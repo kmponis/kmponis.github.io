@@ -243,11 +243,18 @@ p {
     }
 }
 
-
 .skillset {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
+    }
+    .category {
+        font-size: 15px;
+        font-weight: bold;
+        display: block;
+    }
+    .name {
+        font-size: 14px;
     }
     .level-title {
         font-size: 14px;
@@ -264,9 +271,6 @@ p {
     }
 }
 
-
-
-
 .footer {
     padding-top: 30px;
     .copyright {
@@ -278,5 +282,4 @@ p {
     .fa-heart {
         color: $heart;
     }
-
 }
