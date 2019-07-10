@@ -4,11 +4,12 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    career-profile: True # set to False if you want carrer-profile in main section instead of in sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Konstantinos Bonis
-    tagline: Full Stack Developer
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -45,7 +46,7 @@ education:
           - Embedded ABS System on a remote-control car using VHDL, C/C++
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
       A polyglot senior software engineer seeking to learn, teach and evolve. 
       Driven by undertaking responsibilities and solving problems. I learn 
@@ -54,8 +55,7 @@ career-profile:
       design patterns and security.
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Technical Skills
     toolset:
       - name: Python & Django
         level: 98%
@@ -64,6 +64,8 @@ skills:
         level: 98%
 
 experiences:
+    title: Work Experience
+    list:
     - role: Senior Software Engineer
       time: July 2017 - Present
       company: Sopra Steria, Glasgow
@@ -115,25 +117,25 @@ projects:
         location: remote
         description: A web application for managing GP’s details and 
           REST API services consumed by third party NHS application.
-        link: #
+        link: 
         responsibility: |
           Created the development plan and implement it with the team. 
           Set up GIT repositories and configured Linux servers.
         technologies: AngularJS, Java, REST API, Spring, Hibernate, Oracle DB,
-          Maven, GIT, Jenkins, Sonar, JBoss, RHEL, Ubuntu
+          Maven, GIT, Jenkins, Sonar, JBoss, Docker, RHEL, Ubuntu
 
       - title: EFK Proof of Concept
         location: remote
         description: A web application to proof the concept of aggregating and 
           displaying logs on OpenShift and internal infrastructure.
-        link: #
+        link: 
         responsibility: |
           Designed and implemented an AngularJS application consuming java REST 
           API services. 
           Deployed on multiple pods using Openshift and local Linux servers.
           Configured Elastic Search, Fluentd and Kibana.
         technologies: AngularJS, Java, REST API, Spring Boot, JPA, MongoDB, Maven, GIT, 
-          Elastic Search, Fluentd, Kibana, Openshift, Ubuntu
+          Elastic Search, Fluentd, Kibana, Docker, Openshift, Ubuntu
 
       - title: Delta 8.1
         location: 

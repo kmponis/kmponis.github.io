@@ -2,22 +2,24 @@
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
-
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
     {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
+      <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
     {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+      <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
-
-  </div><!--//profile-container-->
+  </div>
 
   {% include contact.html %}
+
+  {% if sidebar.career-profile %}
+    {% include career-profile.html %}
+  {% endif %}
 
   {% if sidebar.education %}
     {% include education.html %}
@@ -30,4 +32,4 @@
     {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div>
