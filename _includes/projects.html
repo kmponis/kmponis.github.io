@@ -30,12 +30,12 @@
             <span class="project-location"> ({{ project.location }}) </span>
           {% endif %}
           {% if project.description %}
-            - <span class="project-description">{{ project.description }}</span>
+            <div class="project-description">{{ project.description }}</div>
           {% endif %}
         </span>
 
         {% if project.responsibility %}
-          <br><span class="project-responsibility">{{ project.responsibility }}</span>
+          <div class="project-responsibility">{{ project.responsibility }}</div>
         {% endif %}
 
         {% if project.technologies %}

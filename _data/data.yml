@@ -18,7 +18,7 @@ sidebar:
     website: #do not add http://
     linkedin: konstantinos-bonis-88491525
     github: kmponis
-    gitlab: kmponis
+    gitlab:
     bitbucket:
     twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -41,7 +41,7 @@ education:
       university: Technical University of Crete
       time: 2012
       details: |
-          - Thesis, Estimate cost for connecting Wind Farms to Network, Matlab (9.87/10)
+          - Thesis, Estimated cost for connecting Wind Farms to Network, Matlab (9.87/10)
           - Developed a Unix Operating System using C/C++
           - Embedded ABS System on a remote-control car using VHDL, C/C++
 
@@ -62,8 +62,8 @@ skills:
         level:
 
       - category: Technologies / Frameworks
-        name: Spring, Hibernate, JPA, REST, SOAP, JSON, Swagger, AngularJS, JSF, 
-          JSP, Swing, Maven, Junit, Cucumber, CAS, Multithreading, TCP/IP Sockets, JavaxComm
+        name: Spring, JSF/JSP, Maven, Hibernate, JPA, Angular, REST, SOAP, JSON, Swagger, 
+          Junit, Cucumber, CAS, Swing, Multithreading, Client-Server, TCP/IP Sockets
         level:
           
       - category: Servers / Databases
@@ -71,12 +71,12 @@ skills:
         level: 
 
       - category: DevOps Tools
-        name: GIT, Jenkins, Docker, AWS, Openshift, Hypervisors, Linux, Sonar, Selenium, 
-          Elastic Search, Fluentd, Kibana
+        name: GIT, Jenkins, Docker, AWS, OpenShift, Hypervisors, Linux, Sonar, 
+          Elastic Search, Fluentd, Kibana, Selenium
         level: 
 
       - category: Methodologies
-        name: Agile, Microservices, BDD, TDD, MVC, Design Patterns, SOLID, Pair Programming 
+        name: Agile, Microservices, TDD, BDD, MVC, Design Patterns, SOLID, Pair Programming 
         level: 
 
 experiences:
@@ -89,7 +89,7 @@ experiences:
         Full Stack Software Engineering consultant supporting multiple clients.
         <br>Evaluate business environments and provide recommendations.
         <br>Analyse, design and implement any application.
-        <br>Configure DevOps tools and create the dev environments.
+        <br>Configure DevOps tools and dev environments.
         <br>Lead the team and document every step.
 
     - role: Senior Developer
@@ -136,43 +136,42 @@ projects:
         link: 
         responsibility: |
           Created the development plan and implement it with the team. 
-          Set up GIT repositories and configured Linux servers.
-        technologies: AngularJS, Java, REST API, Spring, Hibernate, Oracle DB,
-          Maven, GIT, Jenkins, Sonar, JBoss, Docker, RHEL, Ubuntu
+          Set up GIT repositories and configured Linux servers. 
+        technologies: Angular, Java, Spring, Maven, REST API, Hibernate, Oracle DB, 
+          GIT, Jenkins, Sonar, JBoss, Docker, RHEL, Ubuntu
 
       - title: EFK Proof of Concept
         location: remote
-        description: A web application to proof the concept of aggregating and 
-          displaying logs on OpenShift and internal infrastructure.
+        description: A web application to proof the concept of centralise and 
+          report logs.
         link: 
         responsibility: |
-          Designed and implemented an AngularJS application consuming java REST 
-          API services. 
-          Deployed on multiple pods using Openshift and local Linux servers.
-          Configured Elastic Search, Fluentd and Kibana.
-        technologies: AngularJS, Java, REST API, Spring Boot, JPA, MongoDB, Maven, GIT, 
-          Elastic Search, Fluentd, Kibana, Docker, Openshift, Ubuntu
+          Designed and implemented an Angular application consuming java REST API services. 
+          Deployed on multiple pods using OpenShift and local Linux servers. 
+          Configured Elastic Search, Fluentd and Kibana. 
+        technologies: Angular, Java, Spring Boot, Maven, REST API, JPA, MongoDB, 
+          GIT, Elastic Search, Fluentd, Kibana, Docker, OpenShift, Ubuntu
 
       - title: Delta 8.1
         location: 
-        description: An end-to-end, EU compliant, web-based service that allows 
-          buyers to manage tenders, suppliers and contracts.
+        description: A web application, EU compliant, that allows buyers to manage 
+          tenders, suppliers and contracts.
         link:
         responsibility: |
-          Increased performance by amending SQL queries, reduced access to 
-          large hibernate objects and split huge tables into ‘created’ year tables.
-        technologies: Java, SQL/PLSQL, Hibernate, Oracle DB, Multithreading, Ant, SVN, 
-          Selenium, Tomcat, Linux
+          Increased performance by amending SQL queries, reduced access to large 
+          hibernate objects and split huge tables into ‘created’ year tables. 
+        technologies: Java, Ant, SQL/PLSQL, Hibernate, Oracle DB, Multithreading, 
+          SVN, Selenium, Tomcat, Linux
 
       - title: Helios PBX
         location: 
-        description: A client-server swing application that manages Phone Centres. 
-          It works individually or as a bridge between Hotel Front Office programs 
-          and Phone Centres.
+        description: A client-server swing application that works individually or 
+          as a bridge between Hotel Front Office programs and Phone Centres.
         link:
-        responsibility: 
+        responsibility: |
+          Collected requirements, designed, implemented, tested and installed on multiple clients.
         technologies: Java, Swing, Spring, MySQL, Multithreading, TCP/IP Sockets, 
-          Client-Server, GIT
+          Client-Server, JavaxComm, GIT, Hyper-V, Windows 2012
 
 ## Uncomment to add publications ##
 # publications:
