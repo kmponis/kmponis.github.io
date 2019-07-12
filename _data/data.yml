@@ -35,6 +35,29 @@ sidebar:
     # interests:
     #   - item: Cooking
     #     link:
+    
+    achievements:
+      title: Achievements
+      list: 
+        - description: Member of golden award team of SLC
+          company: Sopra Steria
+          time: 2018
+    
+        - description: December OCA winner
+          company: BIP Solutions
+          time: 2016
+
+        - description: Upgraded a network company, into a hardware and software company
+          company: CityStore
+          time: 2014
+
+        - description: Scholarship for excellent performance
+          company: Technical University of Crete
+          time: 2007
+          
+        - description: Scholarship for first place in university entrance examination
+          company: 
+          time: 2004  
 
 education:
     - degree: MEng in Electronic and Computer Engineer
@@ -76,7 +99,7 @@ skills:
         level: 
 
       - category: Methodologies
-        name: Agile, Microservices, TDD, BDD, MVC, Design Patterns, SOLID, Pair Programming 
+        name: Agile, Microservices, OOP, TDD, BDD, MVC, Design Patterns, SOLID, Pair Programming 
         level: 
 
 experiences:
