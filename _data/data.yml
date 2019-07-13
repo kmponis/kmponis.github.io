@@ -160,7 +160,7 @@ projects:
         responsibility: |
           Created the development plan and implement it with the team. 
           Set up GIT repositories and configured Linux servers. 
-        technologies: Angular, Java, Spring, Maven, REST API, Hibernate, Oracle DB, 
+        technologies: Angular, Materialize, Java, Spring, Maven, REST API, Hibernate, Oracle DB, 
           GIT, Jenkins, Sonar, JBoss, Docker, RHEL, Ubuntu, Hyper-V
 
       - title: EFK Proof of Concept
@@ -172,7 +172,7 @@ projects:
           Designed and implemented an Angular application consuming java REST API services. 
           Deployed on multiple pods using OpenShift and local Linux servers. 
           Configured Elastic Search, Fluentd and Kibana. 
-        technologies: Angular, Java, Spring Boot, Maven, REST API, JPA, MongoDB, 
+        technologies: Angular, Materialize, Java, Spring Boot, Maven, REST API, JPA, MongoDB, 
           GIT, Elastic Search, Fluentd, Kibana, Docker, OpenShift, Ubuntu, VirtualBox
 
       - title: Delta 8.1
