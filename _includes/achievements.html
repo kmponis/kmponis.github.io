@@ -1,6 +1,6 @@
 {% assign achievements = site.data.data.sidebar.achievements %}
 {% if achievements %}
-  <div class="education-container container-block">
+  <div class="achievements-container container-block">
 
     <h2 class="container-block-title">
       {{ achievements.title }}
@@ -8,9 +8,12 @@
 
     {% for achievement in achievements.list %}
       <div class="item">
-        <h4 class="degree">{{ achievement.description }}</h4>
-        <h5 class="meta">{{ achievement.company }}</h5>
-        <div class="time">{{ achievement.time }}</div>
+        <div>{{ achievement.description }}</div>
+        {% if achievement.company %}
+          <span class="meta">{{ achievement.company }}, {{ achievement.time }}</span>
+        {% else %}
+          <span class="meta">{{ achievement.time }}</span>
+        {% endif %}
       </div>
     {% endfor %}
 
