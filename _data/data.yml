@@ -86,7 +86,7 @@ skills:
 
       - category: Technologies / Frameworks
         name: Spring, JSF, JSP, Maven, Hibernate, JPA, Angular, Materialize, REST, SOAP, JSON, 
-          Swagger, Junit, Cucumber, CAS, Swing, Multithreading, Client-Server, TCP/IP Sockets
+          Swagger, Junit, Cucumber, Jacoco, CAS, Swing, Multithreading, Client-Server, TCP/IP Sockets
         level:
           
       - category: Servers / Databases
