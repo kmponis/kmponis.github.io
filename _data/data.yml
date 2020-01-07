@@ -94,7 +94,7 @@ skills:
         level: 
 
       - category: DevOps Tools
-        name: GIT, Jenkins, Docker, Kubernetes, AWS, OpenShift, Hypervisors, Linux, Sonar, 
+        name: GIT, Jenkins, Docker, AWS, OpenShift, Hypervisors, Linux, Sonar,
           Elastic Search, Fluentd, Kibana, Selenium
         level: 
 
