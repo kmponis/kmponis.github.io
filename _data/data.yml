@@ -81,7 +81,7 @@ skills:
     title: Technical Skills
     toolset:
       - category: Languages
-        name: JAVA, SQL/PLSQL, JavaScript, TypeScript, HTML, CSS
+        name: JAVA, SQL/PLSQL, JavaScript, TypeScript, Kotlin, HTML, CSS
         level:
 
       - category: Technologies / Frameworks
@@ -99,7 +99,7 @@ skills:
         level: 
 
       - category: Methodologies
-        name: Agile, Microservices, OOP, TDD, BDD, MVC, Design Patterns, SOLID, Pair Programming 
+        name: Agile, Microservices, Serverless, OOP, TDD, BDD, MVC, Design Patterns, SOLID, Pair Programming 
         level: 
 
 experiences:
@@ -152,6 +152,18 @@ projects:
     intro: > # Add text in newline if you need info
 
     assignments:
+      - title: Smith & Nephew
+        location: remote
+        description: A web application to review, approve, sign and compare 
+          documents of medical equipment.
+        link: 
+        responsibility: |
+          Designed and created the prototype for a new serverless web application. 
+          An Angular frontend, a Spring Boot REST API as the middle tier and an AWS 
+          Lambda as the backend deployed using Docker. Created the CI/CD pipeline 
+          using CircleCI, Cloudformation and Terraform.
+        technologies: Angular, Java, Kotlin, Spring, Maven, REST, GIT, CircleCI, 
+          Docker, Nginx, AWS Cloudformation, Lambda, Fargate, DynamoDB, Terraform
       - title: NHS Locsan
         location: remote
         description: A web application for managing GP’s details and 
