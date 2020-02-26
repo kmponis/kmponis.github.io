@@ -185,7 +185,7 @@ projects:
           Deployed on multiple pods using OpenShift and local Linux servers. 
           Configured Elastic Search, Fluentd and Kibana. 
         technologies: Angular, Materialize, Java, Spring Boot, Maven, REST API, JPA, MongoDB, 
-          GIT, ElasticSearch, Fluentd, Kibana, Docker, OpenShift, Ubuntu, VirtualBox
+          GIT, ElasticSearch, Fluentd, Kibana, Docker, OpenShift
 
       - title: Delta 8.1
         location: 
