@@ -90,7 +90,7 @@ skills:
         level:
           
       - category: Servers / Databases
-        name: JBoss, Tomcat, Nginx, Oracle DB, MongoDB, MySQL, SQLite
+        name: JBoss, Tomcat, Nginx, Oracle DB, MongoDB, DynamoDB, MySQL, SQLite
         level: 
 
       - category: DevOps Tools
