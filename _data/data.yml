@@ -90,11 +90,11 @@ skills:
         level:
           
       - category: Servers / Databases
-        name: JBoss, Tomcat, NGINX, Oracle DB, MongoDB, MySQL, SQLite
+        name: JBoss, Tomcat, Nginx, Oracle DB, MongoDB, MySQL, SQLite
         level: 
 
       - category: DevOps Tools
-        name: GIT, Jenkins, CicleCI, Docker, AWS, OpenShift, Hypervisors, Linux, Sonar,
+        name: GIT, Jenkins, CircleCI, Docker, AWS, OpenShift, Hypervisors, Linux, Sonar,
           Elastic Search, Fluentd, Kibana, Selenium
         level: 
 
